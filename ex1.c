@@ -15,12 +15,17 @@ int main() {
         scanf("%d", &input_value);
         printf("You entered: %d\n", input_value);
 
-        // check if the entered integer is equal to 3
-
-        if (input_value == 3) {
-            printf("Correct value entered!\n");
+        // check if the entered integer is equal to 3 and in between 0 and 5
+        if ((input_value < 5) & (input_value > 0)) {
+            if (input_value == 3) {
+                printf("Correct value entered!\n");
+                break;
+            } else {
+                printf("Incorrect value. Try again pls.\n");
+            }
         } else {
-            printf("Incorrect value. Try again pls.\n");
+            printf("Value out of range. Please enter a value between 1 and 5.\n");
         }
+
     };
 }
