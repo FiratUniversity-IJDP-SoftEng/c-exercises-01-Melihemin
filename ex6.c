@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <ctype.h> 
 #include <math.h>
+// Melih Emin KILICOGLU
+// Firat University
+// C Programming Exercises 06
+// Example 6
 
 char userinput[1000];
 
