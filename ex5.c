@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
-typedef char* string;
+
+// Melih Emin KILICOGLU
+// Firat University
+// C Programming Exercises 05
+// Example 5
 
 void sayHello(char name[10]);
 
